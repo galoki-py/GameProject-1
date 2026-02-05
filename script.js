@@ -1,3 +1,5 @@
 function display(){
-    alert("A number is entered!!!");
+    const inp = document.getElementById('discNum');
+    const num = inp.value;
+    alert("No of discs is : " + num + " !!!");
 }
